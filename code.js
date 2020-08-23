@@ -22,3 +22,4 @@ bot.on('message', message => {
     }
 });
 
+// Valamit írjal mar!
