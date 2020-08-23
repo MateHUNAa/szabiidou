@@ -9,7 +9,7 @@ var bot = new commando.Client ({
 });
 let prefix = "?"
 
-bot.login('NzM2ODYyMjcwMTE3NzczMzUz.Xx0-dw.F6SEt_j8k_hh1UiaYHtGLCaTKNk')
+bot.login(process.env.token)
 
 bot.on("ready", () => {
     console.log("A Bot Sikeressen el Indult!");
